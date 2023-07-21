@@ -1,21 +1,39 @@
 import "./FormStyles.css";
 
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Form = () => {
-  return <div className="form">
-    <Form>
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_xs3dg7s', 'template_jgc62pk', form.current, 'vTArBCMnmatq_Su-Q')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Message Sent");
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  return (
+  <div className="form">
+    <form ref={form} onSubmit={sendEmail}>
       <label>Your Name</label>
-      <input type="text"></input>
+      <input type="text" name="user_name"></input>
       <label>Email</label>
-      <input type="email"></input>
+      <input type="email" name="user_email"></input>
       <label>Subject</label>
-      <input type="text"></input>
+      <input type="text" name="subject"></input>
       <label>Message</label>
-      <textarea rows="6" placeholder="Type your message here."/>
-      <button className="btn">Submit</button>
-    </Form>
-  </div>;
+      <textarea rows="6" placeholder="Type your message here." name="message"/>
+      <button className="btn">Send email</button>
+    </form>
+  </div>
+  );
 };
 
 export default Form;

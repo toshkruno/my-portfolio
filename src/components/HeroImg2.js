@@ -1,18 +1,33 @@
+// HeroImg2.js
+import React, { useEffect, useState } from "react";
 import "./HeroImg2Styles.css";
 
-import React, { Component } from "react";
+const HeroImg2 = (props) => {
+  const [scrollOffset, setScrollOffset] = useState(0);
 
-class HeroImg2 extends Component {
-  render(){
-    return (
+  const handleScroll = () => {
+    setScrollOffset(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  return (
     <div className="hero-img">
-      <div className="heading">
-        <h1>{this.props.heading}</h1>
-        <p>{this.props.text}</p>
+      <div
+        className="heading"
+        style={{ transform: `translateY(${scrollOffset * 0.5}px)` }} // Adjust the multiplier to control the parallax effect
+      >
+        <h1>{props.heading}</h1>
+        <p>{props.text}</p>
       </div>
     </div>
   );
-  }
 };
 
 export default HeroImg2;

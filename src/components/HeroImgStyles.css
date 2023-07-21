@@ -1,15 +1,20 @@
+/* HeroImgStyles.css */
 .mask {
     width: 100%;
     height: 100vh;
     position: relative;
+    overflow: hidden; /* Add this to ensure the mask clips the background */
 }
 
 .intro-img {
+    position: absolute;
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    z-index: -1;
+    transform: translateZ(0); /* Add this to enable GPU acceleration for smoother parallax effect */
 }
 
 .mask::after {
@@ -21,19 +26,20 @@
     left: 0;
     background-color: #000;
     opacity: 0.8;
+    z-index: 0; /* Move this pseudo-element behind the background image */
 }
 
 .hero {
-    height: 100%;
-    width: 100%;
+    position: relative;
 }
 
 .hero .content {
     position: absolute;
-    transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
+    z-index: 1;
 }
 
 .hero .content h1 {
@@ -47,6 +53,11 @@
     text-transform: uppercase;
 }
 
+.content {
+    position: relative;
+/* Add your styles for the content here */
+}
+
 .content .btn {
     margin: 1rem 0.2rem;
 }
@@ -57,7 +68,7 @@
     .hero .content h1 {
         font-size: 3rem;
     }
-    
+
     .hero .content p {
         font-size: 1.4rem;
     }
