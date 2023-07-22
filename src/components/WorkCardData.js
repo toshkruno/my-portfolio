@@ -39,7 +39,9 @@ const ProjectCardData = [
         imgsrc: store,
         title: "Next-gen Ecommerce Website Design",
         text: "Step into a world of boundless choices and convenience. From everyday essentials to unique finds, we curate an extensive collection to cater to all your needs.",
-        view: "#/online_store/",
+        view: () => {
+            window.location.href = "https://toshkruno.github.io/online_store";
+        },
     },
 ];
 
