@@ -3,6 +3,7 @@ import mcbbys from "../assets/mcbbys.png";
 import restaurant from "../assets/restaurant.png";
 import bank from "../assets/banking.png";
 import store from "../assets/store.png";
+import odoo from "../assets/odooken.png";
 
 
 
@@ -40,6 +41,13 @@ const ProjectCardData = [
         title: "Next-gen Ecommerce Website Design",
         text: "Step into a world of boundless choices and convenience. From everyday essentials to unique finds, we curate an extensive collection to cater to all your needs.",
         view: "https://tinyurl.com/bdnrsntn",
+    },
+
+    {
+        imgsrc: odoo,
+        title: "Open-source business management experts",
+        text: "Odooken collaborates with Odoo, to offer licensing, implementation, customization, and support services to clients who wish to use Odoo for their business needs.",
+        view: "https://odooken.com/",
     },
 ];
 
