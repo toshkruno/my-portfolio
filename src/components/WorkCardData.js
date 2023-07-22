@@ -4,7 +4,7 @@ import restaurant from "../assets/restaurant.png";
 import bank from "../assets/banking.png";
 import store from "../assets/store.png";
 
-const rootURL = window.location.origin;
+const rootURL = "https://toshkruno.github.io/my-portfolio";
 
 const ProjectCardData = [
     {
@@ -18,7 +18,7 @@ const ProjectCardData = [
         imgsrc: mcbbys,
         title: "Retail Ecommerce Website Design",
         text: "Thriving Online shop where you'll find a delightful array of handcrafted soaps and candles, designed to infuse your spaces with captivating scents and soothing serenity.",
-        view: rootURL + "/store_app/",
+        view: "${rootURL}/store_app/#2",
     },
 
     {
