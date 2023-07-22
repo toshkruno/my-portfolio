@@ -18,7 +18,7 @@ const ProjectCardData = [
         imgsrc: mcbbys,
         title: "Retail Ecommerce Website Design",
         text: "Thriving Online shop where you'll find a delightful array of handcrafted soaps and candles, designed to infuse your spaces with captivating scents and soothing serenity.",
-        view: "../store_app/#2",
+        view: "./store_app/#2",
     },
 
     {
