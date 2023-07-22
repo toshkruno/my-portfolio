@@ -25,7 +25,7 @@ const ProjectCardData = [
         imgsrc: restaurant,
         title: "Fine Restaurant Website Design",
         text: "Made for the finest. Showcase extraordinary culinary delights, combine artful flavors, impeccable service, and a warm ambiance unite to create unforgettable dining experiences.",
-        view: "/restaurant_app/",
+        view: "/https://tinyurl.com/2v28eyek",
     },
 
     {
