@@ -33,6 +33,13 @@
     position: relative;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .hero .content {
     position: absolute;
     top: 50%;
@@ -43,14 +50,20 @@
 }
 
 .hero .content h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     padding: 0.6rem 0 1.5rem;
 }
 
 .hero .content p {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 200;
     text-transform: uppercase;
+}
+
+.hero .content span {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgb(248, 217, 15);
 }
 
 .content {
@@ -60,6 +73,19 @@
 
 .content .btn {
     margin: 1rem 0.2rem;
+}
+.hero .content div {
+    display: flex;
+    justify-content: center;
+}
+
+.hero .content h1:first-child {
+    font-size: 1.5rem;
+    padding-bottom: 0.05rem;
+}
+
+.hero .content h1:last-child {
+    padding-top: 0.05rem;
 }
 
 /* media queries */

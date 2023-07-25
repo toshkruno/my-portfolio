@@ -30,8 +30,9 @@ const HeroImg = () => {
       />
       <div className="mask" />
       <div className="content">
-        <p>Hi, I am a badass freelancer</p>
-        <h1>Fullstack Developer</h1>
+      <h1>Hi,</h1>
+        <h1>I'm a Fullstack Developer.</h1>
+        <p>I want to make things that <span>make a difference.</span></p>
         <div>
           <Link to="/project" className="btn">
             Projects

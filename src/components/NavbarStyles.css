@@ -9,6 +9,10 @@
     z-index: 10;
 }
 
+.header h1 {
+    color: rgb(248, 217, 15);
+}
+
 .header-bg {
     background-color: rgba(0, 0, 0, 0.85);
     transition: 0.5s;
