@@ -15,7 +15,7 @@ const ProjectCardData = [
         imgsrc: django,
         title: "Python Blog website with authentication, DB & more",
         text: " The project demonstrates an exemplary implementation of Django's features like authentication, database integration using Sqlite and more. For developers, by a developer",
-        view: "https://github.com/toshkruno/Flask_web_app/tree/main",
+        view: "https://github.com/toshkruno/django-blog/tree/main",
     },
 
     {
