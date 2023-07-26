@@ -14,7 +14,7 @@ const AboutContent = () => {
           <div className="vertical-bar"></div>
           <div><h1>Mission-driven full stack developer</h1></div>
         </div>
-        <p>I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken many twists and turns — from construction worker, to employee of a local garbage collection service  provider, to amateur professional boxer, to hawker and eventually a small business owner and entrepreneur, to a Tech guru and Programming god — I've never stopped engaging my passion to push my limits, to help others and solve problems.</p>
+        <p>I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path has taken many twists and turns — from construction worker, to employee of a local garbage collection service  provider, to amateur boxer, to hawker, to a small business owner and entrepreneur, to a Tech guru and Programming god — I've never stopped engaging my passion to push my limits, to help others and solve problems.</p>
         <Link to="/contact">
           <button className="btn">Contact Me</button>
         </Link>
@@ -44,7 +44,7 @@ const AboutContent = () => {
           <h3>CISCO Networking Academy</h3>
           <p>May 2023 - Jun 2023</p>
           <ul>
-            <li>Attended & completed Python self-paced online Training</li>
+            <li className="list-group-item">Attended & completed Python self-paced online Training</li>
             <li>Python frameworks</li>
             <li>API development classes</li>
             <li>Python advanced+ concepts</li>
@@ -60,8 +60,8 @@ const AboutContent = () => {
             <li>Web scraper</li>
             <li>API developer</li>
             <li>Network security</li>
-            <li>Linux professional</li>
-            <li>Ethical Hacker</li>
+            <li>Linux & Windows expert</li>
+            <li>Penetration tester</li>
           </ul>
         </div>
         <div className="row-item">
@@ -76,8 +76,8 @@ const AboutContent = () => {
           <h3>Jewelry Designer & Hawker</h3>
           <p>2016 - 2018</p>
           <ul>
-            <li>Product designer</li>
-            <li>Sole proprietor</li>
+            <li>Product artist</li>
+            <li>Door-to-door sales</li>
             <li>Customer service</li>
             <li>Data gathering & eval</li>
             <li>Business strategist</li>
@@ -96,13 +96,14 @@ const AboutContent = () => {
           </ul>
         </div>
         <div className="row-item">
-          <h3>Amateur boxer</h3>
+          <h3>Amateur boxer, Super featherweight & Lightweight divisions</h3>
           <p>2017 - 2020</p>
           <ul>
             <li>Tactical thinking skills</li>
             <li>Self defense</li>
             <li>Health & Wellness</li>
             <li>Combat skills</li>
+            <li>Endurance</li>
           </ul>
         </div>
         

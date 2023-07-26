@@ -20,9 +20,10 @@
     display: inline; /* Add this to make the heading and the vertical bar appear on the same line */
 }
 
-.about .top-container  {
+.top-container  {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .about .heading-container {
@@ -80,14 +81,14 @@
 
 .experience-text {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     flex-wrap: wrap;
     align-items: center;
     color: #fff;
     font-family: 'Open Sans';
     text-align: left;
     max-width: 1140px;
-    margin: auto;
+    margin: 0 auto;
     grid-gap: 40px;
 }
 
@@ -98,18 +99,27 @@
     min-width: 300px;
     box-sizing: border-box;
     margin: 1.2rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 .row-item li {
     margin: 0.2rem 0;
     font-family: 'Open Sans';
     text-align: left;
+    list-style-type: disc;
 }
 
 .row-item h3,
 .row-item p,
 .row-item ul {
     width: 100%;
+}
+
+.row-item ul{
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .row-item h3{
@@ -119,7 +129,7 @@
 .row-item p{
     font-family: sans-serif;
     font-size: 15px;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 
 .right .img-container {
@@ -165,4 +175,29 @@
     color: rgb(248, 217, 15);
     font-family: 'Lumanosimo', sans-serif;
     padding: 10px;
+}
+
+/* media queires */
+@media screen and (max-width: 850px) {
+    .experience-text {
+        grid-template-columns: 1fr; /* Display only one item per row on smaller screens */
+    }
+
+    .top-container {
+        display: flexbox;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+
+    .left{
+        padding-bottom: 0;
+    }
+
+    .right {
+        order: 2;
+    }
+
+    .img {
+        width: 100%;
+    }
 }
