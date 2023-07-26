@@ -4,15 +4,18 @@ import restaurant from "../assets/restaurant.png";
 import bank from "../assets/banking.png";
 import store from "../assets/store.png";
 import odoo from "../assets/odooken.png";
+import sosbroad from "../assets/sosbroad.png";
+import flask from "../assets/flask.jpg";
+import django from "../assets/django.jpg";
 
 
 
 const ProjectCardData = [
     {
-        imgsrc: mugirango,
-        title: "West Mugirango Official Website",
-        text: "A social platform courtesy of West Mugirango's MP Stephen Mogaka. It allows residents of the said constituency to seemlessly access crucial social services & information remotely.",
-        view: "https://w-mugirango.org/",
+        imgsrc: django,
+        title: "Python Blog website with authentication, DB & more",
+        text: " The project demonstrates an exemplary implementation of Django's features like authentication, database integration using Sqlite and more. For developers, by a developer",
+        view: "https://github.com/toshkruno/Flask_web_app/tree/main",
     },
 
     {
@@ -48,6 +51,27 @@ const ProjectCardData = [
         title: "Open-source business management experts",
         text: "Odooken collaborates with Odoo, to offer licensing, implementation, customization, and support services to clients who wish to use Odoo for their business needs.",
         view: "https://odooken.com/",
+    },
+
+    {
+        imgsrc: sosbroad,
+        title: "Open-source business management experts",
+        text: "SoS Broad Security offers a range of security services to clients in East and Central Africa, including manned guarding, facilities management, cash management, global travel risk management, and training.",
+        view: "https://sosbroad.com/",
+    },
+
+    {
+        imgsrc: flask,
+        title: "Python website with authentication, DB & more",
+        text: " Demonstrates an exemplary implementation of essential features like authentication and database integration using Sqlite. For aspiring web developers looking to build secure and robust web apps.",
+        view: "https://github.com/toshkruno/Flask_web_app/tree/main",
+    },
+
+    {
+        imgsrc: mugirango,
+        title: "West Mugirango Official Website",
+        text: "This is an online social platform courtesy of West Mugirango's MP Stephen Mogaka. It allows residents of the said constituency to seemlessly access crucial social services & information remotely to instanteneously get help with pressing matters..",
+        view: "https://w-mugirango.org/",
     },
 ];
 
