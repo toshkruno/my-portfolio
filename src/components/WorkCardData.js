@@ -55,7 +55,7 @@ const ProjectCardData = [
 
     {
         imgsrc: sosbroad,
-        title: "Open-source business management experts",
+        title: "SosBroad Security helps you avoid costly breaches.",
         text: "SoS Broad Security offers a range of security services to clients in East and Central Africa, including manned guarding, facilities management, cash management, global travel risk management, and training.",
         view: "https://sosbroad.com/",
     },
