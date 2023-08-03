@@ -7,10 +7,24 @@ import odoo from "../assets/odooken.png";
 import sosbroad from "../assets/sosbroad.png";
 import flask from "../assets/flask.jpg";
 import django from "../assets/django.jpg";
+import fork from "../assets/fork.png";
+import designs from "../assets/designs.png";
 
 
 
 const ProjectCardData = [
+    {
+        imgsrc: designs,
+        title: "My company's Jewelry gallery website",
+        text: "My company's website sparkles with the brilliance of dynamic product catalogs, secure user authentication, and seamless payment gateways. Experience the elegance of craftsmanship.",
+        view: "https://designs4delight.odoo.com/",
+    },
+    {
+        imgsrc: fork,
+        title: "Restaurant's Python / Django website.",
+        text: "A Django-powered website weaves magic through dynamic menus, seamless reservations, and delightful customer interactions. A perfect blend of Python magic.",
+        view: "http://yagamilight.pythonanywhere.com/",
+    },
     {
         imgsrc: django,
         title: "Python Blog website with authentication, DB & more",
