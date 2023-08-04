@@ -34,8 +34,8 @@ const HeroImg = () => {
         <h1>I'm a Fullstack Developer.</h1>
         <p>I want to make things that <span>make a difference.</span></p>
         <div>
-          <Link to="/project" className="btn">
-            Projects
+          <Link to="https://www.dropbox.com/scl/fi/zkago2942ir5u3t7zj6wj/Anthony-k-Mukami.pdf?rlkey=u6lu5xigqp5yspdm4emic95iz&dl=0" className="btn">
+            Dowload my resume
           </Link>
           <Link to="/contact" className="btn btn-light">
             Contact
