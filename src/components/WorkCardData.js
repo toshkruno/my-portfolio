@@ -9,10 +9,25 @@ import flask from "../assets/flask.jpg";
 import django from "../assets/django.jpg";
 import fork from "../assets/fork.png";
 import designs from "../assets/designs.png";
+import hosi from "../assets/hospital.png";
+import pentest from "../assets/testoolkit.png";
+
 
 
 
 const ProjectCardData = [
+    {
+        imgsrc: pentest,
+        title: "A Replica of the Pentest Tools official website.",
+        text: "Through adept utilization of HTML and CSS, this website impeccably emulates the content, layout, and aesthetics of the official Petest Tools website, ensuring a true-to-original design.",
+        view: "https://toshkruno.github.io/pentest-website/index.html",
+    },
+    {
+        imgsrc: hosi,
+        title: "A python/django hospital management system.",
+        text: "This project was designed for demo purposes only and is not meant to be used in real application. Thats why you will find a few loopholes if you fork my github repo and run it.",
+        view: "http://yagamilight2.pythonanywhere.com/",
+    },
     {
         imgsrc: designs,
         title: "My company's Jewelry gallery website",
