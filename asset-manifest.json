@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.04f4287c.css",
-    "main.js": "/my-portfolio/static/js/main.108fa771.js",
+    "main.js": "/my-portfolio/static/js/main.4e7b46f6.js",
     "static/media/mugirango.png": "/my-portfolio/static/media/mugirango.853580c2187682031c93.png",
+    "static/media/jenganai.png": "/my-portfolio/static/media/jenganai.625e57bdac088633ea44.png",
     "static/media/testoolkit.png": "/my-portfolio/static/media/testoolkit.4c92d21b1ea4f438bb04.png",
     "static/media/designs.png": "/my-portfolio/static/media/designs.8360e6ad4e30908a93fb.png",
     "static/media/mcbbys.png": "/my-portfolio/static/media/mcbbys.920f14f79b4dca1face4.png",
@@ -12,6 +13,7 @@
     "static/media/fork.png": "/my-portfolio/static/media/fork.35c52ad7a02cfab2020e.png",
     "static/media/sosbroad.png": "/my-portfolio/static/media/sosbroad.22332630140b7d04ffa0.png",
     "static/media/banking.png": "/my-portfolio/static/media/banking.fadf64b09f9ac8a8496d.png",
+    "static/media/iphone.png": "/my-portfolio/static/media/iphone.c111bff60821a6aca8d9.png",
     "static/media/hospital.png": "/my-portfolio/static/media/hospital.5169494a340a8c3626d3.png",
     "static/media/intro-bg.jpg": "/my-portfolio/static/media/intro-bg.de0c1c3e31d8532bb776.jpg",
     "static/media/react1.jpg": "/my-portfolio/static/media/react1.d63ca3791694cd8f6f49.jpg",
@@ -20,10 +22,10 @@
     "static/media/flask.jpg": "/my-portfolio/static/media/flask.6c535580811b4892c480.jpg",
     "index.html": "/my-portfolio/index.html",
     "main.04f4287c.css.map": "/my-portfolio/static/css/main.04f4287c.css.map",
-    "main.108fa771.js.map": "/my-portfolio/static/js/main.108fa771.js.map"
+    "main.4e7b46f6.js.map": "/my-portfolio/static/js/main.4e7b46f6.js.map"
   },
   "entrypoints": [
     "static/css/main.04f4287c.css",
-    "static/js/main.108fa771.js"
+    "static/js/main.4e7b46f6.js"
   ]
 }
