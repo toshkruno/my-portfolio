@@ -11,11 +11,24 @@ import fork from "../assets/fork.png";
 import designs from "../assets/designs.png";
 import hosi from "../assets/hospital.png";
 import pentest from "../assets/testoolkit.png";
-
+import jenga from "../assets/jenganai.png";
+import phone from "../assets/iphone.png";
 
 
 
 const ProjectCardData = [
+    {
+        imgsrc: jenga,
+        title: "Stunning 3D website with only HTML, CSS & Javascript.",
+        text: "Jenga Nai is a simple design inspired by an Awwward's award winning website design. All animations have been implemented using Javascript, styles with Bootstrap.",
+        view: "https://jenga-nai-realtors.netlify.app/",
+    },
+    {
+        imgsrc: phone,
+        title: "A demonstration of 3D product preview animation.",
+        text: "This Futuristic yet Simple (but not so easy) template illustrates how animated product previews can offer any business a cutting-edge advantage over most competitiors",
+        view: "https://3d-product-preview.netlify.app/",
+    },
     {
         imgsrc: pentest,
         title: "A Replica of the Pentest Tools official website.",
