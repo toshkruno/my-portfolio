@@ -36,20 +36,20 @@ const HeroImg = () => {
         <h1>Am a Fullstack Developer.</h1>
         <p>I make things that <span>make a difference.</span></p>
         <div>
-          {!playIntro && (
-            <button onClick={handlePlayIntro} className="btn btn-light">
-              Play me
-            </button>
-          )}
           <Link
             to="https://www.dropbox.com/scl/fi/zkago2942ir5u3t7zj6wj/Anthony-k-Mukami.pdf?rlkey=u6lu5xigqp5yspdm4emic95iz&dl=0"
             className="btn"
           >
-            Dowload my resume
+            Peek at my resume
           </Link>
           <Link to="/contact" className="btn btn-light">
             Contact
           </Link>
+          {!playIntro && (
+            <button onClick={handlePlayIntro} className="btn">
+              Virtual assistant
+            </button>
+          )}
         </div>
       </div>
     </div>
