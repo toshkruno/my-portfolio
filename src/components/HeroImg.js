@@ -46,9 +46,11 @@ const HeroImg = () => {
             Contact
           </Link>
           {!playIntro && (
-            <button onClick={handlePlayIntro} className="btn">
-              Virtual assistant
-            </button>
+            <div>
+              <button onClick={handlePlayIntro} className="btn">
+                Virtual assistant
+              </button>
+            </div>
           )}
         </div>
       </div>
