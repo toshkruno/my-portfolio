@@ -59,6 +59,12 @@ p {
     display: grid;
     grid-template-columns: 1fr; /* Start with a single column */
     gap: 10px;
+    background-color: #000;
+    border-radius: 50px;
+}
+
+.copyright p {
+    margin: 10px;
 }
 
 /* media queries */

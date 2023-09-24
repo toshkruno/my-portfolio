@@ -11,8 +11,7 @@ const Footer = () => {
         <div className="location">
           <FaHome size={20} style={{color:"#fff", marginRight: "2rem"}} />
           <div className="">
-            <p>Sheli Sheli Street, Mihang'o</p>
-            <p>Embakasi.</p>
+            <p>Embakasi, Nairobi.</p>
           </div>
         </div>
         <div className="phone">
@@ -29,7 +28,7 @@ const Footer = () => {
 
       <div className="right">
         <h4 className="">About myself</h4>
-        <p>This is me, Anthony. I am the embodiment of ambition and adaptability. Am driven by an unwavering passion to make an impact. My diverse background and relentless pursuit of knowledge has molded me into an agile problem-solver with an eye for innovation. From conquering hurdles to savoring triumphs, I have honed my skills as a team player and leader, fostering collaboration and elevating outcomes.</p>
+        <p>I'm Anthony, a versatile tech enthusiast with a profound passion for technology. As a developer, I excel at transforming ideas into elegant lines of code, crafting visually stunning applications that captivate users. My expertise extends beyond development, encompassing network infrastructure optimization and a deep commitment to fortifying digital security. I'm known for being both a collaborative team player and an effective leader, consistently driving exceptional results in the world of technology.</p>
         <div className="social">
           <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={30} style={{color:"#fff", marginRight: "1rem"}} />
@@ -38,8 +37,8 @@ const Footer = () => {
       </div>
     </div>
     <div className="copyright">
-        <p>© 2023 Myself, All rights are reserved.</p>
-        <p>App built by Yagami_Light</p>
+        <p>© 2023 Me,Myself&I Inc. All rights are reserved.</p>
+        <p>App built by myself.</p>
       </div>
   </div>)
 };
