@@ -14,15 +14,23 @@ import pentest from "../assets/testoolkit.png";
 import jenga from "../assets/jenganai.png";
 import phone from "../assets/iphone.png";
 import pesa from "../assets/pesaflow.png";
+import puppy from "../assets/puppy.png";
 
 
 
 const ProjectCardData = [
     {
+        imgsrc: puppy,
+        title: "Design inspired by Love for puppies",
+        text: "This impressive website design is yet another piece of craftsmanship that was inspired by my love for puppies and a close look at the challenges faced by homeless dogs everyday.",
+        view: "https://tinyurl.com/mw5azvwp",
+        source: "https://github.com/toshkruno",
+    }, 
+    {
         imgsrc: pesa,
         title: "Seamless Payments & Financial Insights.",
         text: "This website showcases the seamless integration of the Pesaflow API for revenue collection, payment aggregation, and business intelligence. Implemented using Python.",
-        view: "http://students.gau.ac.ke/pesaflow/",
+        view: "http://students.gau.ac.ke:84/pesaflow/",
         source: "https://github.com/toshkruno",
     },
     {

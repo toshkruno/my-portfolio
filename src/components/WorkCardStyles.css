@@ -42,6 +42,10 @@
     padding: 0.5rem 1rem;
 }
 
+.pro-btns .rounded {
+    border-radius: 30px;
+    justify-content: space-between;
+}
 /* media queries */
 @media screen and (max-width: 740px) {
     .project-container {

@@ -68,15 +68,22 @@
 
 .content {
     position: relative;
+    display: flex;
 /* Add your styles for the content here */
 }
 
 .content .btn {
     margin: 1rem 0.2rem;
 }
+
+.content  .rounded{
+    border-radius: 30px;
+    justify-content: space-between;
+}
 .hero .content div {
     display: flex;
     justify-content: center;
+    gap: 1em;
 }
 
 .hero .content h1:first-child {
