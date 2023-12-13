@@ -32,21 +32,28 @@ const HeroImg = () => {
       />
       <div className="mask" />
       <div className="content">
-        <h1>Hi</h1>
-        <h1>Am a Fullstack Developer.</h1>
-        <p>I create solutions that <span>make a difference.</span></p>
-        <div>
-          <Link
-            to="https://www.dropbox.com/scl/fi/fb577d72f8z0tztl9uccv/Anthony-k-Mukami.docx?rlkey=8ywmnrkr5mh2qcovyhavvkyre&dl=0"
-            className="btn rounded"
-          >
-            Peek at my resume
-          </Link>
-          <Link to="/contact" className="btn btn-light rounded">
-            Contact Me
-          </Link>
+        <div className="header-content">
+          <h1>Welcome.</h1>
+          <p>My name is Toni. I'm a full-stack developer based in Utawala, Nairobi, Kenya.
+            I am proficient in a myriad of technologies, I specialize not only in crafting engaging websites but also in developing robust software solutions.
+            I have done many projects from Ecommerce booking platforms, online Art Galleries to Political websites. My expertise extends to the realm of Odoo and Python development.<br /> <br /> I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX.</p>
+        </div>
+        <div className="btn-container">
+          <div className="btn-div">
+            <Link
+              to="https://www.dropbox.com/scl/fi/fb577d72f8z0tztl9uccv/Anthony-k-Mukami.docx?rlkey=8ywmnrkr5mh2qcovyhavvkyre&dl=0"
+              className="btn rounded"
+            >
+              My resume
+            </Link>
+          </div>
+          <div className="btn-div">
+            <Link to="/contact" className="btn btn-light rounded">
+              Contact Me
+            </Link>
+          </div>
           {!playIntro && (
-            <div>
+            <div className="btn-div">
               <button onClick={handlePlayIntro} className="btn rounded">
                 Virtual assistant
               </button>

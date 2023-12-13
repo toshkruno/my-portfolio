@@ -22,6 +22,8 @@
     background: url("https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=725&q=80");
     background-size: cover;
     background-position: center top;
+    background-color: black;
+    opacity: 0.2;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -32,12 +34,16 @@
   }
   
   .hero-img h1 {
-    font-size: 2.4rem;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 100px;
+    font-weight: 100;
+    letter-spacing: normal;
   }
   
   .hero-img p {
     font-size: 1.4rem;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
   }
   
   /* media queries */

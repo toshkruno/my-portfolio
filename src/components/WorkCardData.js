@@ -21,8 +21,8 @@ import puppy from "../assets/puppy.png";
 const ProjectCardData = [
     {
         imgsrc: puppy,
-        title: "Design inspired by Love for puppies",
-        text: "This impressive website design is yet another piece of craftsmanship that was inspired by my love for puppies and a close look at the challenges faced by homeless dogs everyday.",
+        title: "Elevated Design: Melding Expertise with Compassion",
+        text: "Explore this sophisticated website crafted to perfection, my mastery in delivering compelling solutions is unparalleled. It subtly mentions the challenges faced by homeless dogs.",
         view: "https://tinyurl.com/mw5azvwp",
         source: "https://github.com/toshkruno",
     }, 

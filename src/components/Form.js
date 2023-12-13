@@ -27,9 +27,9 @@ const Form = () => {
       <label>Email</label>
       <input type="email" name="user_email"></input>
       <label>Subject</label>
-      <input type="text" name="subject"></input>
+      <input type="text" name="subject" placeholder="What's this about?"></input>
       <label>Message</label>
-      <textarea rows="6" placeholder="Type your message here." name="message"/>
+      <textarea rows="6" placeholder="Kindly give me more details." name="message"/>
       <button className="btn">Send email</button>
     </form>
   </div>

@@ -7,7 +7,7 @@ import Form from "../components/Form";
 const Contact = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroImg2 heading="REACH OUT." text="Let's have a coffee!"/>
       <Form />
       <Footer />

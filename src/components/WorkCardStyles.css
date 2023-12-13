@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 .project-heading {
     text-align: center;
+    font-family: 'Cutive Mono', monospace;
     padding: 4rem 0 2rem 0;
 }
 
@@ -15,7 +18,14 @@
 .project-card {
     background-color: #1a1919;
     padding: 1.2rem 1rem;
+    border-radius: 40px;
 }
+
+.project-card:hover  {
+    background: transparent;
+    cursor: url('../assets/crosshair.png')25 25, auto;
+}
+
 
 .project-card img {
     width: 100%;
@@ -24,12 +34,15 @@
 .project-title {
     color: #fff;
     padding: 1rem 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 .pro-details p{
     padding-bottom: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: normal;
 }
 
 .pro-btns {
@@ -46,11 +59,53 @@
     border-radius: 30px;
     justify-content: space-between;
 }
+
+
 /* media queries */
+@media screen and (max-width: 900px) {
+    .pro-btns .btn {
+        display: block;
+        text-align: center;
+    }
+    .gap {
+        padding-bottom: 1rem;
+        }
+    div.pro-btns {
+        display: block;
+    }
+}
 @media screen and (max-width: 740px) {
     .project-container {
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
+    }
+    /* .pro-btns .btn {
+        display: block;
+        text-align: center;
+    }
+
+    .gap {
+        padding-bottom: 1rem;
+    } */
+
+    div.pro-btns {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .pro-btns .btn {
+        display: block;
+        text-align: center;
+    }
+
+    .gap {
+        padding-bottom: 1rem;
+    }
+
+    div.pro-btns {
+        display: block;
+        transition: ease-in;
     }
 }
